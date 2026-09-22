@@ -1,8 +1,10 @@
-package com.proyectocuatro.motordesuscripcionessaas;
+package com.proyectocuatro.motordesuscripcionessaas.model;
+
+import com.proyectocuatro.motordesuscripcionessaas.dto.FacturaDTO;
+import com.proyectocuatro.motordesuscripcionessaas.exception.UsuarioInactivoException;
+import com.proyectocuatro.motordesuscripcionessaas.exception.UsuarioNoEncontradoException;
 
 import java.util.List;
-import java.util.Optional;
-import java.util.Set;
 import java.util.stream.Collectors;
 
 public class Empresa {

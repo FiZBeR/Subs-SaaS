@@ -1,4 +1,4 @@
-package com.proyectocuatro.motordesuscripcionessaas;
+package com.proyectocuatro.motordesuscripcionessaas.dto;
 
 public record FacturaDTO (
         String idUsuario,
